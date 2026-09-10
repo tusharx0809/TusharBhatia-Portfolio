@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Tushar Bhatia — 3D Systems Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="scene"></canvas>
+  <div class="vignette"></div>
+  <div class="grain"></div>
+
+  <nav>
+    <a class="brand" href="#home"><span>Tushar Bhatia</span></a>
+    <div class="links">
+      <a href="#about">About</a><a href="#stack">Stack</a><a href="#projects">Projects</a><a href="#journey">Journey</a><a href="https://github.com/tusharx0809" target="_blank" rel="noopener noreferrer">Github</a><a href="https://www.linkedin.com/in/tusharbhatia0809/" target="_blank" rel="noopener noreferrer">LinkedIN</a>
+    </div>
+    <a class="resume" href="#contact">Let's talk ↗</a>
+  </nav>
+
+  <div class="progress"><span></span></div>
+
+  <main>
+    <section id="home" class="hero scene-section">
+      <div class="hero-copy">
+        <div class="eyebrow"><i></i> DATABASE DEVELOPER · BACKEND · SYSTEMS</div>
+        <p class="mono">Hello, I'm</p>
+        <h1>Tushar<br><span>Bhatia</span><b>.</b></h1>
+        <p class="lead">I build reliable backend systems, optimize databases and keep going deeper into system design, low-level programming and AI.</p>
+        <div class="pills"><span>PostgreSQL</span><span>SQL Server</span><span>Python</span><span>Go</span><span>C</span><span>System Design</span></div>
+        <div class="actions"><a class="btn" href="#projects">Explore my work <b>↓</b></a><a class="btn ghost" href="#contact">Get in touch ↗</a></div>
+      </div>
+      
+      <div class="scroll">SCROLL TO ENTER <b>↓</b></div>
+    </section>
+
+    <section id="about" class="scene-section content-section">
+      <div class="label">01 / ABOUT</div>
+      <div class="content">
+        <p class="kicker">Turning ideas into scalable systems</p>
+        <h2>I like understanding what happens <span>under the hood.</span></h2>
+        <p class="copy">With 5 years of database-focused development experience, I work across SQL, PostgreSQL, Python and automation while continuously moving deeper into backend engineering and system design.</p>
+        <div class="stat-row"><div><strong>5+</strong><small>YEARS EXPERIENCE</small></div><div><strong>10+</strong><small>TECHNOLOGIES</small></div><div><strong>∞</strong><small>LEARNING</small></div></div>
+      </div>
+    </section>
+
+    <section id="stack" class="scene-section stack-section">
+      <div class="label">02 / STACK</div>
+      <div class="content">
+        <p class="kicker-stack">The tools behind the systems</p>
+        <div class="orbit-system">
+          <div class="orbit o1"></div><div class="orbit o2"></div><div class="orbit o3"></div>
+          <div class="core">TECH STACK</div>
+          <div class="tech t1">PostgreSQL</div><div class="tech t2">Python</div><div class="tech t3">Go</div><div class="tech t4">AWS</div>
+          <div class="tech t5">Docker</div><div class="tech t6">C</div><div class="tech t7">FastAPI</div><div class="tech t8">SQL</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="scene-section content-section">
+      <div class="label">03 / PROJECTS</div>
+      <div class="content">
+        <p class="kicker">Things I've built</p>
+        <h2>Real systems, <span>real trade-offs.</span></h2>
+        <div class="projects">
+          <article class="project"><div class="project-num">01</div><div><span class="project-type">GO · POSTGRES · JWT</span><h3>Authentication Service</h3><p>Registration, bcrypt password hashing, JWT access tokens, refresh tokens, protected routes, password change and logout/revocation.</p><div class="tags"><i>Go</i><i>PostgreSQL</i><i>JWT</i><i>bcrypt</i></div></div><div class="project-icon lock">⌘</div></article>
+          <article class="project"><div class="project-num">02</div><div><span class="project-type">PYTHON · FASTAPI</span><h3>Parking Lot API</h3><p>Multistorey parking backend using FastAPI, Pydantic and PostgreSQL with transaction-aware operations.</p><div class="tags"><i>Python</i><i>FastAPI</i><i>PostgreSQL</i></div></div><div class="project-icon">P</div></article>
+          <article class="project"><div class="project-num">03</div><div><span class="project-type">PYTHON · AWS · AUTOMATION</span><h3>Database Automation</h3><p>Automation workflows for database operations, reporting and scheduled jobs using Python and GitHub Actions.</p><div class="tags"><i>Python</i><i>AWS</i><i>GitHub Actions</i></div></div><div class="project-icon">↗</div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="journey" class="scene-section content-section">
+      <div class="label">04 / JOURNEY</div>
+      <div class="content">
+        <p class="kicker">Experience & direction</p>
+        <h2>Still building. <span>Still learning.</span></h2>
+        <div class="timeline">
+          <div><time>2025 — NOW</time><article><h3>Database / Backend Developer</h3><p>SQL · PostgreSQL · Python · Automation · Backend systems</p></article></div>
+          <div><time>2022 — 2024</time><article><h3>Principal Database Developer</h3><p>Database development, performance optimization and production systems.</p></article></div>
+          <div><time>2019 — 2022</time><article><h3>Started the journey</h3><p>Building foundations in software engineering and databases.</p></article></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="learning scene-section">
+      <p class="kicker">CURRENTLY LEARNING</p>
+      <h2>System Design <span>×</span> Distributed Systems <span>×</span> Low-Level Programming <span>×</span> AI</h2>
+      <p>Curiosity is the product roadmap.</p>
+    </section>
+
+    <section id="contact" class="contact scene-section">
+      <p class="kicker">CONTACT</p>
+      <h2>Let's build something<br><span>interesting.</span></h2>
+      <a href="mailto:hello@example.com">tusharbhatia0809@outlook.com ↗</a>
+    </section>
+  </main>
+
+  <footer><span>© 2026 Tushar Bhatia</span><span>DATABASES · BACKEND · SYSTEMS · CONTINUOUS LEARNING</span></footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
